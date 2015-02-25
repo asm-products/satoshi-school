@@ -1,0 +1,42 @@
+.answers li {
+    list-style: upper-alpha;
+}
+
+label {
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+#1results, #2results, #3results {
+    background: #dddada;
+    color: 000000;
+    padding: 3px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+#1results:hover, #2results:hover, #3results:hover {
+    background: #3d91b8;
+    color: #ffffff;
+    padding: 3px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+#categorylist {
+    margin-top: 6px;
+    display: none;
+}
+
+#1category1, #1category2, #1category3, #1category4, #1category5, #1category6, #2category1, #2category2, #2category3, #2category4, #2category5, #2category6, #3category1, #3category2, #3category3, #3category4, #3category5, #3category6  {
+    display: none;
+}
+
+#closing {
+    display: none;
+    font-style: italic;
+}
